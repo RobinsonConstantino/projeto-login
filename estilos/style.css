@@ -40,6 +40,8 @@ section#login {
   height: 500px;
   border-radius: 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.434);
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
   /*overflow: hidden;*/ /*só funciona quando as bordas de cima forem arredondadas*/
 }
 
@@ -53,4 +55,14 @@ section#login > div#imagem {
 section#login > div#formulario {
   padding: 10px;
   display: block;
+}
+
+div#formulario > h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div#formulario > p {
+  padding-left: 10px;
+  padding-right: 10px;
 }

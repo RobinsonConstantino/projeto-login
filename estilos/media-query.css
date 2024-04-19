@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) /*tablet*/ {
+  body {
+    background-image: linear-gradient(to top, #1de9b6, #00e5ff);
+  }
+
+  h1 {
+    font-size: calc(1.3em + 0.5vw);
+  }
+
+  p {
+    font-size: calc(0.75em + 0.5vw);
+  }
+
+  section#login {
+    width: 80vw;
+  }
+
+  section#login > div#imagem {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: url(../imagens/img-amarelo.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+  }
+
+  section#login > div#formulario {
+    float: right;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) /*telas grandes*/ {
+  body {
+    background-image: linear-gradient(to top, #00e5ff, #1de9b6);
+  }
+
+  h1 {
+    font-size: calc(1.5em + 0.5vw);
+  }
+
+  p {
+    font-size: calc(0.8em + 0.5vw);
+  }
+
+  section#login {
+    width: 80vw;
+  }
+
+  section#login > div#imagem {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url(../imagens/img-pintura.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+  }
+
+  section#login > div#formulario {
+    float: left;
+    width: 50%;
+  }
+}
