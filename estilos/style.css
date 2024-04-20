@@ -59,16 +59,17 @@ section#login > div#formulario {
 
 div#formulario > h1 {
   text-align: center;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
 div#formulario > p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 
 div.campo {
   background-color: #00e5ff;
+  border: 4px solid #00e5ff;
   display: block;
   width: 100%;
   height: 35px;
@@ -80,6 +81,31 @@ div.campo {
 
 div.campo > label {
   display: none;
+}
+
+div.campo > span {
+  /*background-color: black;*/
+  font-size: 2em;
+  width: 30px;
+  padding: -4px;
+  font-weight: 300;
+}
+
+div.campo > input {
+  background-color: #1de9b6;
+  color: black;
+  font-size: 1em;
+  width: calc(100% - 44px);
+  height: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0px;
+  margin-left: 9px;
+  transform: translateY(-11px);
+}
+
+div.campo > input:focus-within {
+  background-color: white;
 }
 
 label {
@@ -114,7 +140,8 @@ label {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 10px;
-  background-color: #1de9b6;
+  background-color: white;
+  border: 2px solid #1de9b6;
   border-radius: 5px;
   align-items: center;
   color: black;
